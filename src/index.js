@@ -8,7 +8,7 @@ const App = () => {
   );
 
   return (
-    <div>hello seasons</div>
+    <div>Latitude: </div>
   );
 };
 
