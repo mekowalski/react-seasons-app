@@ -11,3 +11,9 @@ SeasonContent: Shows different text/icons based on PROPs
 - Need to somehow reset permission to make sure it appears again
 - With location block, error message in Console: 'User denied Geolocation'
 - This will be used for reasonable degree of functionality
+
+## Position object
+- Position object contains the latitude
+- Figure out whether the user is in the Northern/Southern hemisphere
+- Use that to customize look and feel of page
+  - minor: get the latitude to display on the page
