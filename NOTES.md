@@ -23,7 +23,7 @@ SeasonContent: Shows different text/icons based on PROPs
   - Must be JS Class
   - Must extend(subclass) React.Component
   - Must define 'render' method that returns some amount of JSX
-  
-- Create class Component
-- After getting result
-- Tell Component to re-render itself on the screen
+
+[x] Create class Component
+[] Get result
+[] Tell Component to re-render itself on the screen
