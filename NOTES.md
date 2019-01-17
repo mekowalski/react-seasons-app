@@ -6,3 +6,8 @@ App: Has code to determine Location and Month
 
 SeasonContent: Shows different text/icons based on PROPs
 - Displays content based on conditions
+
+What happens when user denies location?
+- Need to somehow reset permission to make sure it appears again
+- With location block, error message in Console: 'User denied Geolocation'
+- This will be used for reasonable degree of functionality
