@@ -17,3 +17,13 @@ SeasonContent: Shows different text/icons based on PROPs
 - Figure out whether the user is in the Northern/Southern hemisphere
 - Use that to customize look and feel of page
   - minor: get the latitude to display on the page
+
+## Refactor from Functional to Class Component
+- Rules of Class Component
+  - Must be JS Class
+  - Must extend(subclass) React.Component
+  - Must define 'render' method that returns some amount of JSX
+  
+- Create class Component
+- After getting result
+- Tell Component to re-render itself on the screen
