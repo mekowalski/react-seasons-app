@@ -53,9 +53,9 @@ SeasonContent: Shows different text/icons based on PROPs
 - Component SeasonContent is already created
 [x] Import SeasonContent
 [x] Create functionality using latitude and month to determine whether its summer or winter
-[] Not show latitude but show current season(summer or winter)
+[x] Not show latitude but show current season(summer or winter)
 
-### Summer/Winter Rules
+#### Summer/Winter Rules
 - .getMonth() returns the numerical value of the current month from an index starting at 0
 - Northern Hemisphere will have Summer from Apr-Sep
 - Southern Hemisphere will have Summer from Oct-Mar
@@ -63,3 +63,7 @@ SeasonContent: Shows different text/icons based on PROPs
 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
 Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
+
+## Extract Options to Configure Objects
+[x] Refactor the ternary ops
+[x] Create configuration object
