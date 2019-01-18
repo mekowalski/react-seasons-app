@@ -25,6 +25,8 @@ SeasonContent: Shows different text/icons based on PROPs
   - Must define 'render' method that returns some amount of JSX
 
 [x] Create class Component
+
+## State Initialization
 [x] Implement State
   [x] Define constructor method
   [x] Initialize the state object
@@ -33,3 +35,11 @@ SeasonContent: Shows different text/icons based on PROPs
 [x] Get result
 [x] Get the Position and update the 'lat' property in State object
 [x] Tell Component to re-render itself on the screen
+
+
+## Handling Errors Gracefully
+- Whenever State is updated, it isn't required to update every property in it
+- Updating State is an added process
+[] Inform user about error
+[] Re-render Component
+[] Update error message with State!!!
