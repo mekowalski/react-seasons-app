@@ -5,17 +5,14 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = { lat: null, errorMessage: '' }
+    //constructor now only has single purpose: to initialize State object
   }
 
   //in theory, better off using this is a componentDidMount() lifecycle
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
-      position => {
-        this.setState({ lat: position.coords.latitude })
-      },
-      error => {
-        this.setState({ errorMessage: error.message })
-      }
+      position => this.setState({ lat: position.coords.latitude }),
+      error => this.setState({ errorMessage: error.message })
     );
   }
 
