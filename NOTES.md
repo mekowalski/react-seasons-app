@@ -32,4 +32,4 @@ SeasonContent: Shows different text/icons based on PROPs
 
 [x] Get result
 [x] Get the Position and update the 'lat' property in State object
-[] Tell Component to re-render itself on the screen
+[x] Tell Component to re-render itself on the screen
