@@ -40,6 +40,12 @@ SeasonContent: Shows different text/icons based on PROPs
 ## Handling Errors Gracefully
 - Whenever State is updated, it isn't required to update every property in it
 - Updating State is an added process
-[] Inform user about error
-[] Re-render Component
-[] Update error message with State!!!
+[x] Inform user about error
+[x] Re-render Component
+[x] Update error message with State!!!
+
+- Need to only show error message when it's necessary(with conditional)
+- Errors that a user can run into:
+1. Have Latitude - No errorMessage ---> Show Latitude
+2. No Latitude - Show errorMessage ---> Show Error
+3. No Latitude - No errorMessage ---> Show 'loading'

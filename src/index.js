@@ -10,7 +10,6 @@ class App extends React.Component {
       position => {
         this.setState({ lat: position.coords.latitude })
       },
-      //dont get into bad practice of not dealing with errors
       error => {
         this.setState({ errorMessage: error.message})
       }
@@ -18,7 +17,13 @@ class App extends React.Component {
   }
 
   render() {
-    return <div>Latitude: {this.state.lat}</div>
+    return (
+      <div>
+        Latitude: {this.state.lat}
+        <br />
+        Error: {this.state.errorMessage}
+      </div>
+    );
   }
 }
 
