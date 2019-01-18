@@ -9,3 +9,10 @@
   bottom: 10px;
   right: 10px;
 }
+
+.season-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
