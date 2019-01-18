@@ -5,7 +5,7 @@ class App extends React.Component {
   constructor(props) {
     super(props)
 
-    this.state = { lat: null }
+    this.state = { lat: null } // this can be referenced inside App Component
   }
 
   render() {
@@ -14,7 +14,7 @@ class App extends React.Component {
       error => console.log(error)
     );
 
-    return <div>Latitude: </div>
+    return <div>Latitude: {this.state.lat}</div> // this can be referenced inside App Component
   }
 }
 
