@@ -1,3 +1,5 @@
+import './SeasonContent.css';
+//Webpack will see that a CSS file is imported and stick it in the index.html file
 import React from 'react';
 
 //DRY
