@@ -18,8 +18,6 @@ class App extends React.Component {
     }
 
     if (!this.state.errorMessage && this.state.lat) {
-      //When creating this instance of SeasonContent, need to tell this Component what the season is
-      //It will then be up to SeasonContent to figure out whether it's summer/winter and adjust
       return <SeasonContent lat={this.state.lat} />
     }
 
