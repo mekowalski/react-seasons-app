@@ -5,16 +5,19 @@ class App extends React.Component {
   constructor(props) {
     super(props)
 
-    this.state = { lat: null } // this can be referenced inside App Component
-  }
+    this.state = { lat: null }
 
-  render() {
+    //the instance the App Component shows on screen or and instance is created, it will begin attempting
+    //to get user location
     window.navigator.geolocation.getCurrentPosition(
       position => console.log(position),
       error => console.log(error)
     );
+  }
 
-    return <div>Latitude: {this.state.lat}</div> // this can be referenced inside App Component
+  //later the render() method won't double fetch
+  render() {
+    return <div>Latitude: {this.state.lat}</div>
   }
 }
 
