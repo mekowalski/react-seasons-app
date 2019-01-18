@@ -16,8 +16,15 @@ class App extends React.Component {
     );
   }
 
+  componentDidMount() {
+    console.log('My component rendered to the screen')
+  }
+
+  componentDidUpdate() {
+    console.log('My component just update - it rerendered!')
+  }
+
   render() {
-    //conditional rendering
     if (this.state.errorMessage && !this.state.lat) {
       return <div>Error: {this.state.errorMessage}</div>
     }
@@ -26,7 +33,7 @@ class App extends React.Component {
       return <div>Latitude: {this.state.lat}</div>
     }
 
-    return <div>Lodaing...</div>
+    return <div>Loading...</div>
   }
 }
 
