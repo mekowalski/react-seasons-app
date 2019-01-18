@@ -2,13 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { lat: null, errorMessage: '' }
-    //constructor now only has single purpose: to initialize State object
-  }
+  state = { lat: null, errorMessage: '' };
+  //After this goes through Babel, this will build the constructor function and initialize State
 
-  //in theory, better off using this is a componentDidMount() lifecycle
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
       position => this.setState({ lat: position.coords.latitude }),
