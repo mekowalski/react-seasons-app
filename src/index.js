@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 class App extends React.Component {
   state = { lat: null, errorMessage: '' };
-  //After this goes through Babel, this will build the constructor function and initialize State
 
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
