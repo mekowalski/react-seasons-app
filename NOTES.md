@@ -30,6 +30,6 @@ SeasonContent: Shows different text/icons based on PROPs
   [x] Initialize the state object
   [x] Assign a key-value pair to this.state
 
-[] Get result
-[] Get the Position and update the 'lat' property in State object
+[x] Get result
+[x] Get the Position and update the 'lat' property in State object
 [] Tell Component to re-render itself on the screen
