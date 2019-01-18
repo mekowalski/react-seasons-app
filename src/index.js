@@ -11,19 +11,22 @@ class App extends React.Component {
         this.setState({ lat: position.coords.latitude })
       },
       error => {
-        this.setState({ errorMessage: error.message})
+        this.setState({ errorMessage: error.message })
       }
     );
   }
 
   render() {
-    return (
-      <div>
-        Latitude: {this.state.lat}
-        <br />
-        Error: {this.state.errorMessage}
-      </div>
-    );
+    //conditional rendering
+    if (this.state.errorMessage && !this.state.lat) {
+      return <div>Error: {this.state.errorMessage}</div>
+    }
+
+    if (!this.state.errorMessage && this.state.lat) {
+      return <div>Latitude: {this.state.lat}</div>
+    }
+
+    return <div>Lodaing...</div>
   }
 }
 
