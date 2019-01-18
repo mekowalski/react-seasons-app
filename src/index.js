@@ -5,7 +5,10 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = { lat: null, errorMessage: '' }
+  }
 
+  //in theory, better off using this is a componentDidMount() lifecycle
+  componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
       position => {
         this.setState({ lat: position.coords.latitude })
