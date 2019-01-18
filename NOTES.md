@@ -52,7 +52,7 @@ SeasonContent: Shows different text/icons based on PROPs
 ## Get Back on Track
 - Component SeasonContent is already created
 [x] Import SeasonContent
-[] Create functionality using latitude and month to determine whether its summer or winter
+[x] Create functionality using latitude and month to determine whether its summer or winter
 [] Not show latitude but show current season(summer or winter)
 
 ### Summer/Winter Rules
