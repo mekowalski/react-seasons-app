@@ -25,5 +25,6 @@ SeasonContent: Shows different text/icons based on PROPs
   - Must define 'render' method that returns some amount of JSX
 
 [x] Create class Component
+[] Implement State
 [] Get result
 [] Tell Component to re-render itself on the screen
