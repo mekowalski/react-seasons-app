@@ -10,7 +10,10 @@ class App extends React.Component {
     //the instance the App Component shows on screen or and instance is created, it will begin attempting
     //to get user location
     window.navigator.geolocation.getCurrentPosition(
-      position => console.log(position),
+      position => {
+        //setState is called in order to update State
+        this.setState({ lat: position.coords.latitude })
+      }, //callback function
       error => console.log(error)
     );
   }
