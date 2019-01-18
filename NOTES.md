@@ -57,8 +57,8 @@ SeasonContent: Shows different text/icons based on PROPs
 
 ### Summer/Winter Rules
 - .getMonth() returns the numerical value of the current month from an index starting at 0
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11
---|-- |-- |-- |-- |-- |-- |-- |-- |-- |--  |--
+0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11
+-- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
 Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 - Northern Hemisphere will have Summer from Apr-Sep
 - Southern Hemisphere will have Summer from Oct-Mar
