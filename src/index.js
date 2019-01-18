@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SeasonContent from './SeasonContent';
 
 class App extends React.Component {
   state = { lat: null, errorMessage: '' };
@@ -17,7 +18,9 @@ class App extends React.Component {
     }
 
     if (!this.state.errorMessage && this.state.lat) {
-      return <div>Latitude: {this.state.lat}</div>
+      //When creating this instance of SeasonContent, need to tell this Component what the season is
+      //It will then be up to SeasonContent to figure out whether it's summer/winter and adjust
+      return <SeasonContent lat={this.state.lat} />
     }
 
     return <div>Loading...</div>
