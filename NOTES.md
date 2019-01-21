@@ -69,6 +69,9 @@ Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 [x] Create configuration object
 
 
-[] Create better interface for user when the page is loading
+[x] Create better interface for user when the page is loading
 - Provide loading spin-y circle or bar of some sort
 - Create separate component for loading(loading feature is reusable in other places of the App)
+
+[] Clarify 'Loading' for user
+- They may not know if the App is trying to load something or if the App is awaiting their response
