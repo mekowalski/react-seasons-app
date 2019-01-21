@@ -13,6 +13,8 @@ class App extends React.Component {
     );
   }
 
+  //if conditional logic is necessary, instead put it in a Helper function, not the render() method
+  //Helper function
   renderContent() {
     if (this.state.errorMessage && !this.state.lat) {
       return <div>Error: {this.state.errorMessage}</div>;
