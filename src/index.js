@@ -22,8 +22,8 @@ class App extends React.Component {
       return <SeasonContent lat={this.state.lat} />
     }
 
-    return <Loading />;
-  }
+    return <Loading message='Please accept location request'/>;
+  }//this message prop will override the default prop
 }
 
 ReactDOM.render(
