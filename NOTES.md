@@ -67,3 +67,8 @@ Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 ## Extract Options to Configure Objects
 [x] Refactor the ternary ops
 [x] Create configuration object
+
+
+[] Create better interface for user when the page is loading
+- Provide loading spin-y circle or bar of some sort
+- Create separate component for loading(loading feature is reusable in other places of the App)
