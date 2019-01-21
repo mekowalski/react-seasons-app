@@ -1,4 +1,4 @@
-import React fron 'react';
+import React from 'react';
 
 const Loading = () => {
   return (
