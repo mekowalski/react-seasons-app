@@ -77,3 +77,10 @@ Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 - They may not know if the App is trying to load something or if the App is awaiting their response
 
 - BUT what happens when a message isn't show and the Loading Component needs to be reused?
+
+## Conditionals in Render
+- New challenge: no matter what is shown, each cases would have to display a certain requirement
+- New code would be written to display a certain element, creating duplication
+- Root of problem is that conditional is inside a render() function
+
+#### Helper Functions
