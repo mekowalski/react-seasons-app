@@ -13,17 +13,25 @@ class App extends React.Component {
     );
   }
 
-  render() {
+  renderContent() {
     if (this.state.errorMessage && !this.state.lat) {
-      return <div>Error: {this.state.errorMessage}</div>
+      return <div>Error: {this.state.errorMessage}</div>;
     }
 
     if (!this.state.errorMessage && this.state.lat) {
-      return <SeasonContent lat={this.state.lat} />
+      return <SeasonContent lat={this.state.lat} />;
     }
 
     return <Loading message='Please accept location request'/>;
-  }//this message prop will override the default prop
+  }
+
+  render() {
+    return (
+      <div className="border red">
+        {this.renderContent()}
+      </div>
+    );
+  }
 }
 
 ReactDOM.render(

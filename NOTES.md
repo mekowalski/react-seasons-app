@@ -84,3 +84,5 @@ Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 - Root of problem is that conditional is inside a render() function
 
 #### Helper Functions
+- Contain all code in the render() method
+[] Create helper function
