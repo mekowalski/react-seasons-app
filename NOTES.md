@@ -27,21 +27,21 @@ SeasonContent: Shows different text/icons based on PROPs
 [x] Create class Component
 
 ## State Initialization
-[x] Implement State
-  [x] Define constructor method
-  [x] Initialize the state object
-  [x] Assign a key-value pair to this.state
+- [x] Implement State
+  - [x] Define constructor method
+  - [x] Initialize the state object
+  - [x] Assign a key-value pair to this.state
 
-[x] Get result
-[x] Get the Position and update the 'lat' property in State object
-[x] Tell Component to re-render itself on the screen
+- [x] Get result
+- [x] Get the Position and update the 'lat' property in State object
+- [x] Tell Component to re-render itself on the screen
 
 ## Handling Errors Gracefully
 - Whenever State is updated, it isn't required to update every property in it
 - Updating State is an added process
-[x] Inform user about error
-[x] Re-render Component
-[x] Update error message with State!!!
+- [x] Inform user about error
+- [x] Re-render Component
+- [x] Update error message with State!!!
 
 - Need to only show error message when it's necessary(with conditional)
 - Errors that a user can run into:
@@ -51,9 +51,9 @@ SeasonContent: Shows different text/icons based on PROPs
 
 ## Get Back on Track
 - Component SeasonContent is already created
-[x] Import SeasonContent
-[x] Create functionality using latitude and month to determine whether its summer or winter
-[x] Not show latitude but show current season(summer or winter)
+- [x] Import SeasonContent
+- [x] Create functionality using latitude and month to determine whether its summer or winter
+- [x] Not show latitude but show current season(summer or winter)
 
 #### Summer/Winter Rules
 - .getMonth() returns the numerical value of the current month from an index starting at 0
@@ -65,15 +65,15 @@ SeasonContent: Shows different text/icons based on PROPs
 Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 
 ## Extract Options to Configure Objects
-[x] Refactor the ternary ops
-[x] Create configuration object
+- [x] Refactor the ternary ops
+- [x] Create configuration object
 
 
-[x] Create better interface for user when the page is loading
+- [x] Create better interface for user when the page is loading
 - Provide loading spin-y circle or bar of some sort
 - Create separate component for loading(loading feature is reusable in other places of the App)
 
-[x] Clarify 'Loading' for user
+- [x] Clarify 'Loading' for user
 - They may not know if the App is trying to load something or if the App is awaiting their response
 
 - BUT what happens when a message isn't show and the Loading Component needs to be reused?
@@ -85,4 +85,4 @@ Jan | Feb | Mar | Apr| May | Jun | Jul | Aug | Sep | Oct | Nov | Dec
 
 #### Helper Functions
 - Contain all code in the render() method
-[] Create helper function
+- [] Create helper function
